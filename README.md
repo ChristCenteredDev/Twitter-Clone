@@ -28,4 +28,4 @@ bootstrap-sass Gem - For Bootstrap with Sass
 Devise Gem - For Authentication & User Accounts
 
 Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
