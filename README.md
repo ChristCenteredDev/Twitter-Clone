@@ -1,3 +1,5 @@
+Christ Centered Dev. || Coding Bootcamp Student || Blogger
+
 # Tweeter - A clone of Twitter 2016
 Coded as an assignment during my 2nd Semester at Vivixx Academy Coding Bootcamp (http://vivixxbootcamp.com/). This was a significant amount of time which I had a lot of fun doing.
 
