@@ -54,14 +54,14 @@
     .log-in {
       float: right;
       width: 300px;
-      height: 149px;
+      height: 120px;
       margin-top: 7.5%;
     }
     
     .sign-up {
       float: right;
       width: 300px;
-      height: 198px;
+      height: 203px;
     }
     
     .marginup {
@@ -71,6 +71,19 @@
     .form-control {
       margin-top: 5px;
       margin-bottom: 5px;
+    }
+    
+    .zero-padding {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+    
+    .height44 {
+      height: 44px;
+    }
+    
+    .btm-margin-down {
+      margin-bottom: -21px;
     }
         
   </style>
@@ -93,8 +106,17 @@
           </div>
         
           <div class="field">
-            <%= f.password_field :password, placeholder: "Password", autocomplete: "off", class: "form-control" %>
+            <div class="col-sm-9 zero-padding">
+              <%= f.password_field :password, placeholder: "Password", autocomplete: "off", class: "form-control" %>
+            </div>
+            <div class="actions col-sm-3 zero-padding height44">
+              <div align="right">
+                <%= f.submit "Log in", class: "btn btn-primary btm-margin-down" %>
+              </div>
+            </div>
           </div>
+            
+            
         
           <% if devise_mapping.rememberable? -%>
             <div class="field">
@@ -103,11 +125,6 @@
             </div>
           <% end -%>
         
-          <div class="actions">
-            <center>
-              <%= f.submit "Log in", class: "btn btn-primary" %>
-            </center>
-          </div>
         <% end %>
 
       </div>
@@ -137,9 +154,9 @@
           <br />
           
           <div class="actions">
-            <center>
-              <%= f.submit "Sign up", class: "btn btn-primary marginup" %>
-            </center>
+            <div align="right">
+              <%= f.submit "Sign up for Tweeter", class: "btn btn-primary marginup" %>
+            </div>
           </div>
         <% end %>
       </div>

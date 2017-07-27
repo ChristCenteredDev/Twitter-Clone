@@ -25,12 +25,24 @@ body {
 .navbar {
     background-color: white;
 }
+
 .navbar-brand {
     position: absolute;
     left: 50%;
     margin-right: 25px !important;
     display: block;
 }
+
+.navbar-brand-landing {
+    position: absolute;
+    left: 20.25%;
+    margin-right: 25px !important;
+    margin-top: 15px !important;
+    display: block;
+    height: 20px;
+    width: 20px;
+}
+
 .post-panel {
     margin-top: -21px;
 }
@@ -92,4 +104,8 @@ body {
     display: block;
     margin: auto;
     width: 95%;
+}
+
+.glyphy-right-margin {
+    padding-right: 5px;  /* NOT WORKING */
 }
