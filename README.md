@@ -52,6 +52,7 @@ Active app is viewable at: Unavailable at this time...
 
 ### What's Next:
 - Implementing CarrierWave for File Uploads
+- Implement Deletion of Tweets
 - Update Database..etc for Dynamic Profiles ( Avatars, Banners, Profile Description, Website Link )
 - Migrate Database to PostgreSQL for Heroku Deployment
 - Deploy to Heroku
