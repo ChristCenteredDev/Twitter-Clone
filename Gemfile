@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 gem 'devise'
 # Bootstrap-sass for Twitter UI components
 gem 'bootstrap-sass', '~> 3.3.7'
+# CarrierWave for File Uploading
+gem 'carrierwave', '~> 1.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
 # Use sqlite3 as the database for Active Record
