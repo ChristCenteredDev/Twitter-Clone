@@ -9,8 +9,10 @@ gem 'bootstrap-sass', '~> 3.3.7'
 gem 'carrierwave', '~> 1.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3'
 # Use PG for Heroku Database
-gem 'pg'
+gem 'pg', group: :production # don't use locally, only on heroku
 # Heroku pre-req
 gem 'rails_12factor', group: :production # don't use locally, only on heroku
 # Use SCSS for stylesheets

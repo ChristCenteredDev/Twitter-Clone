@@ -8,6 +8,7 @@ class PagesController < ApplicationController
   def home
     @posts = Post.all
     @newPost = Post.new
+    @newTweet = Post.new  # Trying something to fix bug when submitting with Modal Button on User Nav Bar
   end
 
   # back-end code for pages/profile
@@ -22,6 +23,7 @@ class PagesController < ApplicationController
     
     @posts = Post.all.where("user_id = ?", User.find_by_username(params[:id]).id)
     @newPost = Post.new
+    @newTweet = Post.new
     
     @toFollow = User.all.last(5)
   end
@@ -30,6 +32,7 @@ class PagesController < ApplicationController
   def explore
     @posts = Post.all
     @newPost = Post.new
+    @newTweet = Post.new
     @toFollow = User.all.last(5)
   end
   

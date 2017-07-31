@@ -49,11 +49,11 @@ Active app is viewable at: Unavailable at this time...
 - Controllers, Forms, Database Modifications - For Followers/Following
 - Polished the Landing Page Forms & GUI
 - Finished the Landing Page Form Layout
+- Migrate Database to PostgreSQL for Heroku Deployment
+- Deploy to Heroku
 
 ### What's Next:
 - Implementing CarrierWave for File Uploads
 - Implement Deletion of Tweets
 - Update Database..etc for Dynamic Profiles ( Avatars, Banners, Profile Description, Website Link )
-- Migrate Database to PostgreSQL for Heroku Deployment
-- Deploy to Heroku
 - Finish Documentation ( Add Images, Update Information )
