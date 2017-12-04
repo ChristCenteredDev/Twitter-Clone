@@ -5,6 +5,8 @@ Coded as an assignment during my 2nd Semester 7th & 8th week's at Vivixx Academy
 
 Active app is viewable at: https://tweeter-christcentereddev.herokuapp.com/
 
+### Note: See bottom of the documentation for visual examples of the site.  
+
 ### Medium Blog posts related to this Project:
 - Main Profile Page: (https://medium.com/@williammooney/)
 - 6th Week — Vivixx Coding Bootcamp (https://medium.com/@williammooney/week-6-vivixx-coding-bootcamp-b0ea9034fd15)
@@ -46,10 +48,36 @@ Active app is viewable at: https://tweeter-christcentereddev.herokuapp.com/
 - Finished the Landing Page Form Layout
 - Migrate Database to PostgreSQL for Heroku Deployment
 - Deploy to Heroku
+- Finished Documentation
 
 ### What's Next:
+- Update: As of 12/4/2017 Updates unlikely to be made as I'm transitioning to C# & ASP.NET
 - Implementing CarrierWave for File Uploads
 - Implement Deletion of Tweets
 - Update Database..etc for Dynamic Profiles ( Avatars, Banners, Profile Description, Website Link )
-- Finish Documentation ( Add Images, Update Information )
 
+### What does it look like?
+
+![twitter clone kanban](https://user-images.githubusercontent.com/24855472/33573672-87f27968-d904-11e7-94da-18cdda472453.png)
+
+*The Kanban board created for the Twitter clone.*
+###
+
+![twitter2016_landing_page](https://user-images.githubusercontent.com/24855472/33573630-5c87bc48-d904-11e7-8645-4dc11d415ec1.png)
+
+*This is a picture of the login/registration screen for Twitter 2016 which was used for referance.*
+###
+
+![twitter-main-page](https://user-images.githubusercontent.com/24855472/33573564-20674698-d904-11e7-9a53-3dbb2b52e2a4.png)
+
+*This is the initial login/registration screen which is nearly identical to Twitter from 2016 shown above.*
+###
+
+![twitter-clone-profile](https://user-images.githubusercontent.com/24855472/33573482-e57a0b92-d903-11e7-9033-483dfd819224.png)
+
+*This is the Profile page.*
+###
+
+### Stay tuned and be sure to follow me!
+
+### Christ Centered Dev. || Developer || Blogger
